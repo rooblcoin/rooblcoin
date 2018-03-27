@@ -1,0 +1,34 @@
+src/*.exe
+src/RUBLE
+src/RUBLEd
+src/test_RUBLE
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.RUBLE
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+RUBLE-qt
+RUBLE-Qt.app
+
+# Unit-tests
+Makefile.test
+RUBLE-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
